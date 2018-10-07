@@ -6,7 +6,6 @@ import sys
 import time
 
 SERVER_IP = urlopen('http://ip.42.pl/raw').read()
-#BOOTSTRAP_URL = "http://bootstrapLocation/bootstrap.zip"
 
 DEFAULT_COLOR = "\x1b[0m"
 PRIVATE_KEYS = []
