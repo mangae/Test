@@ -4,7 +4,6 @@ import collections
 import os
 import sys
 import time
-from urllib2 import urlopen
 
 SERVER_IP = urlopen('http://ip.42.pl/raw').read()
 #BOOTSTRAP_URL = "http://bootstrapLocation/bootstrap.zip"
