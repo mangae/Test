@@ -9,7 +9,7 @@ import os
 from urllib2 import urlopen
 
 SERVER_IP = urlopen('http://ip.42.pl/raw').read()
-//BOOTSTRAP_URL = "http://bootstrapLocation/bootstrap.zip"
+#BOOTSTRAP_URL = "http://bootstrapLocation/bootstrap.zip"
 
 DEFAULT_COLOR = "\x1b[0m"
 PRIVATE_KEYS = []
