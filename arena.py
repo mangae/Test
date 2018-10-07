@@ -4,7 +4,6 @@ import collections
 import os
 import sys
 import time
-import math
 import os
 from urllib2 import urlopen
 
