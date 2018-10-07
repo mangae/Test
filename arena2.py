@@ -118,7 +118,7 @@ def compile_wallet():
         f.close()
 
     print_info("Installing wallet build dependencies...")
-	run_command("apt-get --assume-yes install git unzip software-properties-common git")
+	run_command("apt-get --assume-yes install git unzip software-properties-common")
 	run_command("apt-get --assume-yes install build-essential")
 	run_command("apt-get --assume-yes install libtool")
 	run_command("apt-get --assume-yes install autotools-dev")
@@ -128,7 +128,7 @@ def compile_wallet():
 	run_command("apt-get --assume-yes install libdb4.8-dev libdb4.8++-dev libminiupnpc-dev")
 	run_command("apt-get --assume-yes install libzmq3-dev libevent-pthreads-2.0-5")
 	run_command("apt-get --assume-yes install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools")
-	run_command("apt-get --assume-yes install libprotobuf-dev libqrencode-dev bsdmainutils git")
+	run_command("apt-get --assume-yes install libprotobuf-dev libqrencode-dev bsdmainutils")
 	run_command("apt-repository ppa:bitcoin/bitcoin --assume-yes ")
 	run_command("apt-get update")
 
