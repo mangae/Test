@@ -4,7 +4,6 @@ import collections
 import os
 import sys
 import time
-import os
 from urllib2 import urlopen
 
 SERVER_IP = urlopen('http://ip.42.pl/raw').read()
