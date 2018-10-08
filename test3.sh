@@ -19,4 +19,12 @@
     sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev -y
     sudo apt-get install libqrencode-dev bsdmainutils -y 
     sudo apt install git 
-    wget https://raw.githubusercontent.com/mangae/Test/master/Arena20.py && python Arena20.py
+    git clone https://github.com/ArenaCoinDev/Arena
+    cd Arena/arena-master
+    sudo bash ./autogen.sh
+    sudo bash ./configure --disable-tests --disable-gui-tests
+    sudo make && sudo make install
+    cd
+    arenad -daemon
+    wait 10
+    arena-cli getinfo
