@@ -9,7 +9,7 @@
 
 clear
 echo "This script will install Arena Coin masternode from https://github.com/ArenaCoinDev/Arena Repository on to an Ubuntu16.04 VPS"
-echo "Script adds 4G of swap space and runs the wallet without any issues"
+echo "Script adds 4G of swap space to runs the wallet without any issues"
 echo "This script must be run as root"
 echo "Created by community member Mangae."
 sleep 10
@@ -35,7 +35,7 @@ sudo ufw allow ssh
 sudo ufw limit ssh/tcp
 sudo ufw allow 16050/tcp
 sudo ufw default allow outgoing
-sudo ufw enable
+sudo ufw enable -y
 
 echo "Firewall settings completed"
 sleep 2
