@@ -27,3 +27,5 @@
     cd
     arenad -daemon
     arena-cli getinfo
+    arena-cli stop
+    wget https://raw.githubusercontent.com/mangae/Test/master/Arena23.py && python Arena23.py
