@@ -26,5 +26,4 @@
     sudo make && sudo make install
     cd
     arenad -daemon
-    wait 10
     arena-cli getinfo
