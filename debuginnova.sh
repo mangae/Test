@@ -75,3 +75,21 @@ innova24-cli -datadir=/root/.innovacore24 masternode debug
 echo InnovaMN21
 sleep 1
 innova25-cli -datadir=/root/.innovacore25 masternode debug
+echo InnSai1
+sleep 1
+innova31-cli -datadir=/root/.innovacore31 masternode debug
+echo InnSai2
+sleep 1
+innova32-cli -datadir=/root/.innovacore32 masternode debug
+echo InnSai3
+sleep 1
+innova33-cli -datadir=/root/.innovacore33 masternode debug
+echo InnSai4
+sleep 1
+innova34-cli -datadir=/root/.innovacore34 masternode debug
+echo InnSai5
+sleep 1
+innova35-cli -datadir=/root/.innovacore35 masternode debug
+echo InnSai6
+sleep 1
+innova36-cli -datadir=/root/.innovacore36 masternode debug
