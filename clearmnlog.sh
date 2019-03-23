@@ -41,6 +41,12 @@ truncate -s0 ~/.innovacore22/debug.log
 truncate -s0 ~/.innovacore23/debug.log
 truncate -s0 ~/.innovacore24/debug.log
 truncate -s0 ~/.innovacore25/debug.log
+truncate -s0 ~/.innovacore31/debug.log
+truncate -s0 ~/.innovacore32/debug.log
+truncate -s0 ~/.innovacore33/debug.log
+truncate -s0 ~/.innovacore34/debug.log
+truncate -s0 ~/.innovacore35/debug.log
+truncate -s0 ~/.innovacore36/debug.log
 sleep 5
 truncate -s0 ~/.SagaCoin/debug.log
 truncate -s0 ~/.SagaCoin2/debug.log
