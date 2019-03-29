@@ -50,6 +50,9 @@ sleep 1
 innova24-cli -datadir=/root/.innovacore24 masternode status
 sleep 1
 innova25-cli -datadir=/root/.innovacore25 masternode status
+echo InnMN26
+sleep 1
+innova26-cli -datadir=/root/.innovacore26 masternode status
 echo SaiMN1
 sleep 1
 innova31-cli -datadir=/root/.innovacore31 masternode status
