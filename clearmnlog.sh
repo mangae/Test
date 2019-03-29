@@ -41,6 +41,7 @@ truncate -s0 ~/.innovacore22/debug.log
 truncate -s0 ~/.innovacore23/debug.log
 truncate -s0 ~/.innovacore24/debug.log
 truncate -s0 ~/.innovacore25/debug.log
+truncate -s0 ~/.innovacore26/debug.log
 truncate -s0 ~/.innovacore31/debug.log
 truncate -s0 ~/.innovacore32/debug.log
 truncate -s0 ~/.innovacore33/debug.log
