@@ -143,9 +143,9 @@ truncate -s0 ~/.innovacore141/debug.log
 truncate -s0 ~/.innovacore142/debug.log
 truncate -s0 ~/.innovacore143/debug.log
 truncate -s0 ~/.innovacore144/debug.log
-truncate -s0 ~/.innovacore196/debug.log
-truncate -s0 ~/.innovacore197/debug.log
-truncate -s0 ~/.innovacore198/debug.log
-truncate -s0 ~/.innovacore199/debug.log
-truncate -s0 ~/.innovacore200/debug.log
-truncate -s0 ~/.innovacore201/debug.log
+truncate -s0 ~/.innovacore145/debug.log
+truncate -s0 ~/.innovacore146/debug.log
+truncate -s0 ~/.innovacore147/debug.log
+truncate -s0 ~/.innovacore148/debug.log
+truncate -s0 ~/.innovacore149/debug.log
+truncate -s0 ~/.innovacore150/debug.log
