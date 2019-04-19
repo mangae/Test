@@ -94,5 +94,5 @@ truncate -s0 ~/.syndicate3/debug.log
 sleep 5
 truncate -s0 ~/.escrow1/debug.log
 sleep 5
-truncate -s0 ~/..desirecore1/debug.log
-truncate -s0 ~/..desirecore2/debug.log
+truncate -s0 ~/.desirecore1/debug.log
+truncate -s0 ~/.desirecore2/debug.log
