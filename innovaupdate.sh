@@ -20,7 +20,7 @@ echo "*******************************************"
 echo -e "Installing SWAP file"
 echo -e "--------------------------------------------------------------------------------------------------------------------------"
 #Asking for SWAP
-echo -e "${YELLOW}Would you like to install 2GB SWAP memory file (no if you did it before, yes if you are installing your first node)? [y/n]${NC}"
+echo -e "${YELLOW}Would you like to install 2GB SWAP memory file (no if you did it before, yes if you have no Swap file already set)? [y/n]${NC}"
 read SWAPSETUP
 # echo ${SWAPSETUP}
 if [[ ${SWAPSETUP,,} =~ "y" ]] ; then
@@ -35,7 +35,7 @@ if [[ ${SWAPSETUP,,} =~ "y" ]] ; then
 fi
 
 #Asking for Firewall
-echo -e "${YELLOW}Would you like to Enable firewall and open port 14520 (no if you did it before, yes if you are installing your first node)? [y/n]${NC}"
+echo -e "${YELLOW}Would you like to Enable firewall and open port 14520 (no if you did it before, yes if you need to open port 14520)? [y/n]${NC}"
 read FWSETUP
 # echo ${FWSETUP}
 if [[ ${FWSETUP,,} =~ "y" ]] ; then
@@ -50,7 +50,7 @@ if [[ ${FWSETUP,,} =~ "y" ]] ; then
 
 fi
 
-	echo "Installing dependencies"
+	echo "${YELLOW}Installing dependencies"
 	sleep 5
 	sudo apt-get update
 	sudo apt-get -y upgrade
@@ -71,10 +71,7 @@ fi
 	echo -e "Dependencies Installed, Now Downloading wallet"
 	echo -e "--------------------------------------------------------------------------------------------------------------------------"
 
-	
-	
-	
-fi
+
 
 #Checking OS version
 if [[ $(lsb_release -d) == *16.04* ]]; then
