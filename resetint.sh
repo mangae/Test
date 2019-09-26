@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dhclient -cf /etc/dhcp/dhclient6.conf -6 -P -v em1
+trap    'dhclient -cf /etc/dhcp/dhclient6.conf -6 -P -v em1 ' TERM
 
 sleep 10
 
