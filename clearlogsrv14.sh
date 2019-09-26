@@ -1,0 +1,54 @@
+#!/bin/bash
+
+truncate -s0 ~/.metrix/debug.log
+truncate -s0 ~/.metrix2/debug.log
+truncate -s0 ~/.metrix3/debug.log
+truncate -s0 ~/.metrix4/debug.log
+truncate -s0 ~/.metrix5/debug.log
+truncate -s0 ~/.metrix6/debug.log
+truncate -s0 ~/.metrixe7/debug.log
+truncate -s0 ~/.metrix8/debug.log
+truncate -s0 ~/.metrix9/debug.log
+truncate -s0 ~/.metrix10/debug.log
+truncate -s0 ~/.metrix11/debug.log
+truncate -s0 ~/.metrix12/debug.log
+truncate -s0 ~/.metrix13/debug.log
+truncate -s0 ~/.metrix14/debug.log
+truncate -s0 ~/.metrix15/debug.log
+sleep 10
+truncate -s0 ~/.metrix16/debug.log
+truncate -s0 ~/.metrix17/debug.log
+truncate -s0 ~/.metrix18/debug.log
+truncate -s0 ~/.metrix19/debug.log
+truncate -s0 ~/.metrix20/debug.log
+truncate -s0 ~/.metrix21/debug.log
+truncate -s0 ~/.metrix22/debug.log
+truncate -s0 ~/.metrix23/debug.log
+truncate -s0 ~/.metrix24/debug.log
+truncate -s0 ~/.metrix25/debug.log
+truncate -s0 ~/.metrix26/debug.log
+truncate -s0 ~/.metrix27/debug.log
+truncate -s0 ~/.metrix28/debug.log
+truncate -s0 ~/.metrix29/debug.log
+truncate -s0 ~/.metrix30/debug.log
+sleep 10
+truncate -s0 ~/.metrix31/debug.log
+truncate -s0 ~/.metrix32/debug.log
+truncate -s0 ~/.metrix33/debug.log
+truncate -s0 ~/.metrix34/debug.log
+truncate -s0 ~/.metrix35/debug.log
+truncate -s0 ~/.metrix36/debug.log
+truncate -s0 ~/.metrix37/debug.log
+truncate -s0 ~/.metrix38/debug.log
+truncate -s0 ~/.metrix39/debug.log
+truncate -s0 ~/.metrix40/debug.log
+truncate -s0 ~/.metrix41/debug.log
+truncate -s0 ~/.metrix42/debug.log
+truncate -s0 ~/.metrix43/debug.log
+truncate -s0 ~/.metrix44/debug.log
+truncate -s0 ~/.metrix45/debug.log
+truncate -s0 ~/.metrix46/debug.log
+truncate -s0 ~/.metrix47/debug.log
+truncate -s0 ~/.metrix48/debug.log
+truncate -s0 ~/.metrix49/debug.log
+truncate -s0 ~/.metrix50/debug.log
